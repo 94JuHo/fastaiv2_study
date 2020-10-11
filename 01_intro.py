@@ -14,4 +14,3 @@ img = PILImage.create(uploader.data[0])
 is_cat, _, probs = learn.predict(img)
 print(f"Is this a cat?: {is_cat}.")
 print(f"Probability it's a cat: {probs[1].item():.6f}")
-
